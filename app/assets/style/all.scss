@@ -1,23 +1,26 @@
-$color: #00cc99;
+@import 'base/variables';
+@import 'layout/grid';
+@import 'base/reset';
 
-.header {
-  height: 200px;
-  background-color: #00cc99;
-}
+@import 'helper/mixin';
+@import 'helper/text';
+@import 'helper/spacing';
+@import 'helper/flex';
+@import "helper/sizing";
+@import "helper/background";
 
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
+@import 'component/form';
+@import 'component/pagination';
+@import 'component/card';
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
-}
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'page/index';
+@import 'page/productop';
+@import 'page/productsun';
+@import 'page/location';
+@import 'page/locationdetail';
+@import 'page/blog';
+@import 'page/blogcontent';
+@import 'page/faq';
