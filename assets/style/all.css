@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -21,7 +21,12 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  font-size: 16px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: normal;
+  color: #000000;
+  vertical-align: baseline;
+  line-height: 1.5; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -69,18 +74,27 @@ h1, h2, h3 {
   margin: 0 auto; }
   @media (max-width: 992px) {
     .container {
-      max-width: 992px;
-      padding-right: 40px;
-      padding-left: 40px; } }
+      max-width: 720px; } }
   @media (max-width: 767px) {
     .container {
-      max-width: 767px;
-      padding-right: 15px;
-      padding-left: 15px; } }
+      max-width: 375px; } }
 
 /* h1 size */
 h1 {
   font-size: 64px; }
+
+.lg-title {
+  color: #650300;
+  padding: 60px 0;
+  font-size: 48px; }
+  @media (max-width: 992px) {
+    .lg-title {
+      font-size: 32px;
+      margin-bottom: 32px; } }
+  @media (max-width: 767px) {
+    .lg-title {
+      font-size: 20px;
+      margin-bottom: 20px; } }
 
 /* font size */
 .text-sm {
@@ -165,7 +179,7 @@ h1 {
   font-family: "Roboto", sans-serif; }
 
 .font-noto {
-  font-family: "Noto Sans", sans-serif; }
+  font-family: "Noto Sans TC", sans-serif; }
 
 /* text align */
 .text-left {
@@ -596,5 +610,40 @@ h1 {
   @media (max-width: 992px) {
     .privacy-list li:first-child {
       margin-right: 24px; } }
+
+.banner {
+  background: url(../images/banner.png) no-repeat center center;
+  background-size: cover;
+  height: 840px; }
+  .banner span {
+    display: block;
+    color: #650300;
+    font-family: "Roboto", sans-serif; }
+  @media (max-width: 767px) {
+    .banner {
+      height: 394px; } }
+
+@media (max-width: 767px) {
+  .service .container {
+    padding-bottom: 52px; } }
+
+.service-list li {
+  width: 20%; }
+  @media (max-width: 992px) {
+    .service-list li {
+      width: 35%; } }
+  @media (max-width: 767px) {
+    .service-list li {
+      width: 70%; } }
+
+.service-list img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 40px; }
+  @media (max-width: 992px) {
+    .service-list img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 16px; } }
 
 /*# sourceMappingURL=all.css.map */
