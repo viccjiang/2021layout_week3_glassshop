@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -24,7 +23,12 @@ time, mark, audio, video {
     border: 0;
     font-size: 100%;
     font: inherit;
+    font-size: $base-font-size;
+    font-family: $tc-font-family;
+    font-weight: normal;
+    color:$font-color;
     vertical-align: baseline;
+    line-height: 1.5;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -78,15 +82,12 @@ h1,h2,h3{
     margin: 0 auto;
 
     @include pad-992{
-          max-width: 992px;
-          padding-right: 40px;
-          padding-left:  40px;
+        max-width: 720px;
       }
 
     @include phone-767{
-        max-width: 767px;
-        padding-right: 15px;
-        padding-left: 15px;
+        max-width: 375px;
+  
       }
 }
 

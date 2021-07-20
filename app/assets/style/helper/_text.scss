@@ -3,6 +3,22 @@ h1{
     font-size: $base-font-size * 4; // 64
 }
 
+.lg-title{
+    color:$secondary-color;
+    padding: 60px 0;
+    font-size: 48px;
+    
+    @include pad-992{
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+
+    @include phone-767{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
 /* font size */
 .text-sm{
     font-size: $base-font-size * 0.875; // 14

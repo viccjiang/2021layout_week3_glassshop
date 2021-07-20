@@ -1,0 +1,43 @@
+.banner {
+    background: url(../images/banner.png) no-repeat center center;
+    background-size: cover;
+    height: 840px;
+
+    span{
+        display: block;
+        color:$secondary-color;
+        font-family: $en-font-family;
+    }
+    @include phone-767{
+        height: 394px;
+    }
+}
+
+.service {
+    .container {
+    @include phone-767{
+        padding-bottom: 52px;
+    }
+}
+}
+.service-list{
+    li{
+        width: 20%;
+        
+        @include pad-992{
+            width: 35%;
+        }
+        @include phone-767{
+            width: 70%;
+        }
+    }
+    img{
+        @include size(100px);
+        margin-bottom: 40px;
+        @include pad-992{
+            @include size(80px);
+            margin-bottom: 16px;
+        }
+    }
+    
+}
