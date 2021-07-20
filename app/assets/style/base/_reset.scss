@@ -78,12 +78,13 @@ h1,h2,h3{
     margin: 0 auto;
 
     @include pad-992{
-          max-width: 100%;
+          max-width: 992px;
           padding-right: 40px;
           padding-left:  40px;
       }
 
     @include phone-767{
+        max-width: 767px;
         padding-right: 15px;
         padding-left: 15px;
       }
