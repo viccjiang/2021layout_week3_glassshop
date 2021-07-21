@@ -335,6 +335,8 @@ h1 {
     margin-bottom: 40px; }
   .mb-md-9 {
     margin-bottom: 72px; }
+  .mb-md-10 {
+    margin-bottom: 80px; }
   .mb-md-13 {
     margin-bottom: 104px; } }
 
@@ -623,15 +625,13 @@ h1 {
     .banner {
       height: 394px; } }
 
-@media (max-width: 767px) {
-  .service .container {
-    padding-bottom: 52px; } }
-
 .service-list li {
-  width: 20%; }
+  width: 20%;
+  margin-bottom: 80px; }
   @media (max-width: 992px) {
     .service-list li {
-      width: 35%; } }
+      width: 35%;
+      margin-bottom: 57px; } }
   @media (max-width: 767px) {
     .service-list li {
       width: 70%; } }
