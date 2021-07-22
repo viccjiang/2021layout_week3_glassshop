@@ -658,7 +658,7 @@ h1 {
 @media (max-width: 767px) {
   .series-item h3 {
     position: absolute;
-    color: #fff; } }
+    color: #aa0601; } }
 
 .series-item h3::before {
   content: '';
@@ -675,7 +675,7 @@ h1 {
       height: 32px; } }
   @media (max-width: 767px) {
     .series-item h3::before {
-      background: url(../images/icon-diamond-white.svg) no-repeat center;
+      background: url(../images/icon-diamond.svg) no-repeat center;
       background-size: contain; } }
 
 .series-item:nth-child(2) h3::before {
@@ -691,7 +691,7 @@ h1 {
       height: 32px; } }
   @media (max-width: 767px) {
     .series-item:nth-child(2) h3::before {
-      background: url(../images/icon-sun-white.svg) no-repeat center;
+      background: url(../images/icon-sun.svg) no-repeat center;
       background-size: contain; } }
 
 .series-item:nth-child(3) h3::before {
@@ -707,7 +707,7 @@ h1 {
       height: 32px; } }
   @media (max-width: 767px) {
     .series-item:nth-child(3) h3::before {
-      background: url(../images/icon-thunder-white.svg) no-repeat center;
+      background: url(../images/icon-thunder.svg) no-repeat center;
       background-size: contain; } }
 
 /*# sourceMappingURL=all.css.map */
