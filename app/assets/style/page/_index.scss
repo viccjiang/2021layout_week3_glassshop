@@ -116,3 +116,52 @@
     }
     
 }
+
+
+
+.design{
+    background: url(../images/bg.png) no-repeat center;
+    background-size: cover;
+
+}
+
+.design-item{
+    width: 50%;
+    position: relative;
+
+    a{
+
+       @include before(100%,100%){
+           position: absolute;
+           left: 0;
+           top: 0;
+           background-color: rgba(255,255,255,0.5);
+            transition:all 0.5s;
+       }
+
+       &:hover{
+           &::before{
+            background-color: rgba(255,255,255,0); 
+           }
+       }
+    }
+     @include phone-767{
+         width: 100%;
+     } 
+
+   h3{
+       font-size: 72px;
+       position: absolute;
+
+       @include pad-992{
+        font-size: 48px;
+    }
+       @include phone-767{
+           font-size: 32px;
+       }
+   }
+  
+}
+
+
+

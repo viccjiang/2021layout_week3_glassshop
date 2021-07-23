@@ -23,11 +23,17 @@
      }
 }
 
+
+
+
 .navbar a{
     color:#fff;
     font-size: 20px;
-    padding: 40px 0 40px 64px;
-    
+    padding: 40px 32px 40px 32px;
+    @include link-hover{
+        background-color:$secondary-color;
+    }
+   
 
     @include pad-992{
         padding-left: 40px;  
@@ -39,3 +45,5 @@
        border:$light-border;
     }
 }
+
+

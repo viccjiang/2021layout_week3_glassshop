@@ -27,6 +27,12 @@
 .align-end{
     align-items: flex-end;
 }
+
+.align-stretch { 
+    align-items: stretch; 
+  }
+
+
 .flex-row-reverse{
     flex-direction: row-reverse;
 }
