@@ -1,5 +1,5 @@
 ---
-title: 首頁
+title: 眼鏡電商首頁
 layout: ./app/layout.ejs
 engine: ejs
 current: index
@@ -72,7 +72,7 @@ current: index
 
 <!-- design -->
 <div class="design ">
-  <div class="container pt-8 pb-10 py-md-5 py-sm-4"">
+  <div class="container  pb-10 py-md-5 py-sm-4"">
     <h2 class=" lg-title text-center text-white ">聯名設計鏡框</h2>
     <ul class=" design-list d-flex flex-sm-wrap">
     <li class="design-item d-flex align-center justify-center mr-3 mr-sm-0 mb-sm-2">
@@ -93,10 +93,11 @@ current: index
 
 
 <!-- recommend -->
-<div class="recommend container py-8 py-md-5 py-sm-4">
+
+<div class="recommend container pb-10 py-md-5 py-sm-4">
   <h2 class="lg-title text-center">顧客推薦</h2>
   <ul class="card-list d-flex justify-between  align-stretch flex-md-wrap ">
-    <li class="card-item flex-column mr-3 mr-md-0 mb-md-4 mb-sm-2 ">
+    <li class="card-item flex-column  mr-md-0 mb-md-4 mb-sm-2 ">
       <img src="./assets/images/rec-1.png" alt="recommend">
       <div class="card-item-text ">
         <p class="card-name">Jessy</p>
@@ -104,7 +105,7 @@ current: index
         <p class="card-time">2021/06/20</p>
       </div>
     </li>
-    <li class="card-item mr-3 mr-md-0 mb-md-4 mb-sm-2">
+    <li class="card-item   mb-md-4 mb-sm-2">
       <img src="./assets/images/rec-2.png" alt=" recommend">
       <div class="card-item-text ">
         <p class="card-name">凱倫</p>
@@ -112,7 +113,7 @@ current: index
         <p class="card-time">2021/04/18</p>
       </div>
     </li>
-    <li class="card-item mr-3 mr-md-0 mb-md-4 mb-sm-2">
+    <li class="card-item   mb-md-4 mb-sm-2">
       <img src="./assets/images/rec-3.png" alt="recommend">
       <div class="card-item-text ">
         <p class="card-name">悠悠</p>
@@ -120,7 +121,7 @@ current: index
         <p class="card-time">2020/12/25</p>
       </div>
     </li>
-    <li class="card-item  mr-md-0 mb-md-4 mb-sm-2">
+    <li class="card-item   mb-md-4 mb-sm-2">
       <img src="./assets/images/rec-4.png" alt="recommend">
       <div class="card-item-text ">
         <p class="card-name">Kyuan</p>
@@ -129,4 +130,42 @@ current: index
       </div>
     </li>
   </ul>
+</div>
+
+<!-- contact -->
+<div class="contact  bg-light">
+  <div class="container  pb-8 py-md-5 py-sm-4">
+    <h2 class="service-title lg-title text-center">
+      聯絡我們
+    </h2>
+    <div class="form">
+      <p class="form-text">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+      <form action="">
+        <div class="form-group">
+          <label for="name">姓名</label>
+          <input type="text" id="name" placeholder="陳小明">
+        </div>
+        <div class="form-group">
+          <label for="phone">聯絡電話</label>
+          <input type="text" id="phone" placeholder="0912-345-678">
+        </div>
+        <div class="form-group">
+          <label for="email">電子郵件</label>
+          <input type="email" id="email" placeholder="example@email.com">
+        </div>
+        <div class="form-group">
+          <label for="suggest">意見反應</label>
+          <textarea id="suggest" placeholder="請輸入您的意見" rows="8"></textarea>
+        </div>
+        <div class="form-group form-checkbox">
+
+          <input type="checkbox" id="agree" name="agree" checked>
+          <label for="agree">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
+
+
+        </div>
+        <button type="submit" class="submit">確認送出</button>
+      </form>
+    </div>
+  </div>
 </div>

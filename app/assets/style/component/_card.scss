@@ -1,9 +1,9 @@
 .card-item{
-    width: calc(100% / 4);
+    width: calc(100%/4);
+    padding: 0 15px;
 
     @include pad-992{
-        width: calc((100% - 30px)/2);
-
+        width: calc(100%/2);
         img{
             width: 100%;
         }
@@ -14,9 +14,8 @@
     }
 
     .card-item-text{
-
-    border:$dark-border;
-    padding: 14px 16px;
+        border:$dark-border;
+        padding: 14px 16px;
 
     p{
         font-family: $en-font-family;
@@ -38,6 +37,8 @@
 
 .card-content{
     margin-bottom: 10px;
+    height: 72px;
+    margin-bottom: 52px;
     @include pad-992{
         margin-bottom: 16px;
      }
@@ -46,6 +47,7 @@
 .card-time{
     font-size: 14px;
     color:#707070;
+
 }
 
 
