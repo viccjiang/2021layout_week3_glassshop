@@ -55,7 +55,7 @@
     &-list{
         li>a {
             @include link-hover{
-                background-color: $secondary-color;
+                opacity: 0.7;
             }
        }
         padding: 12px 0 ;
