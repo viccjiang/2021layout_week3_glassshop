@@ -61,6 +61,7 @@ input[type="checkbox"]{
 label{
     display: inline-block;
     margin-bottom: 4px;
+    
     @include pad-992{
         font-size: 14px;
         margin-bottom: 2px;
@@ -73,12 +74,11 @@ label{
 ::placeholder {
 	opacity: 0.5;
     font-size: 16px;
+
     @include pad-992{
         font-size: 14px;
     }
   }
-
-
 
 
   .submit{
