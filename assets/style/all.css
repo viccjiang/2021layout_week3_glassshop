@@ -668,13 +668,13 @@ label {
   @media (max-width: 767px) {
     .card-item {
       width: 100%; } }
-  .card-item .card-item-text {
+  .card-item-text {
     border: 1px solid #DEE2E6;
     padding: 14px 16px; }
-    .card-item .card-item-text p {
+    .card-item-text p {
       font-family: "Roboto", sans-serif; }
     @media (max-width: 992px) {
-      .card-item .card-item-text {
+      .card-item-text {
         padding: 16px; } }
   .card-item .card-name {
     font-size: 14px;
