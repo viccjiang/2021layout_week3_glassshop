@@ -1,6 +1,6 @@
-@import 'base/variables';
+@import 'config/variables';
 @import 'layout/grid';
-@import 'base/reset';
+@import 'config/reset';
 
 @import 'helper/mixin';
 @import 'helper/text';
@@ -9,8 +9,8 @@
 @import "helper/sizing";
 @import "helper/background";
 
-@import 'component/form';
-@import 'component/card';
+@import 'module/form';
+@import 'module/card';
 
 @import 'layout/header';
 @import 'layout/footer';
