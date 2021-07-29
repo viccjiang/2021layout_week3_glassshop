@@ -62,3 +62,116 @@
     
 }
 
+.product-banner-list{
+        background: url(../images/banner-1-1.jpg) no-repeat center center;
+        background-size: cover;
+        height: 304px;
+        width: 50%;
+       
+        @include phone-767{
+            height: 148px;
+        }
+
+        &:nth-child(2){
+        background: url(../images/banner-1-2.jpg) no-repeat center center;
+        background-size: cover;
+        height: 304px;
+        width: 50%;
+        
+        @include phone-767{   
+            height: 148px;
+        }
+    }
+}
+
+
+.productsun-banner-list{
+    background: url(../images/banner-3.png) no-repeat center center;
+    background-size: cover;
+    height: 304px;
+    width: 50%;
+   
+    @include phone-767{
+        height: 148px;
+    }
+
+    &:nth-child(2){
+    background: url(../images/product-2-color.png) no-repeat center center;
+    background-size: cover;
+    height: 304px;
+    width: 50%;
+    
+    @include phone-767{   
+        height: 148px;
+    }
+}
+}
+
+
+
+.product-item{
+    width: calc((100% - 90px)/4);
+    @include pad-992{
+        width:calc((100% - 30px)/2);;
+    }
+    @include phone-767{
+        width: 100%;
+    }
+}
+
+.product-img{
+    img{
+        width:100%;
+    }
+}
+
+.product-name{
+    font-size: 24px;
+    font-family: $en-font-family;
+    @include phone-767{
+       font-size: 16px;
+    }
+}
+.product-price{
+    font-size: 24px;
+    font-family: $en-font-family;
+    font-weight: 500;
+    color:$primary-color;
+    @include phone-767{
+        font-size: 16px;
+     }
+}
+.product-color{
+    
+    li{
+        @include size(24px);
+        border-radius: 4px;
+        margin-right: 8px;
+        &:first-child{
+            background-color: #5F3E2D;
+        }
+        &:nth-child(2){
+            background-color: #B75929;
+        }
+        @include phone-767{
+            @include size(16px);
+            margin-right: 4px;
+         }
+    }
+}
+
+
+    .product-color{
+      
+        li{
+            @include size(20px);
+            @include pad-992{
+                @include size(24px);
+        }
+        @include phone-767{
+            @include size(16px);
+            margin-right: 4px;
+         }
+    }
+}
+
