@@ -1,0 +1,64 @@
+//  layout product-nav
+
+.product-nav{
+
+    &-item{
+        width: 33%;
+        border-left:#DCDCDC solid 1px;
+
+        @include pad-992{
+            padding: 0 39px;
+        }
+
+        @include phone-767{
+            padding: 0 15px;
+        }
+
+
+        &:nth-child(3){
+            border-right:#DCDCDC solid 1px;
+        }
+
+        a{
+            padding: 27px 0;  
+            @include pad-992{
+                padding:14px 0;
+            }
+            
+            @include phone-767{
+                padding:5px 0;
+            }
+        
+        }
+
+        &:hover{
+            border-bottom:$primary-color solid 8px;
+
+           
+    
+            @include phone-767{
+                border-bottom:$primary-color solid 4px;
+            }
+
+
+
+        }
+        
+        img{
+            width: 48px;
+            height: 48px;
+
+            @include pad-992{
+                width: 32px;
+                height: 32px;
+            }
+
+            @include phone-767{
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+    
+}
+
