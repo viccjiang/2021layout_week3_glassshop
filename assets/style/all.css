@@ -952,7 +952,7 @@ label {
         height: 16px; } }
 
 .product-banner-list {
-  background: url(../../images/banner-1-1.jpg) no-repeat center center;
+  background: url(../images/banner-1-1.jpg) no-repeat center center;
   background-size: cover;
   height: 304px;
   width: 50%; }
@@ -960,7 +960,7 @@ label {
     .product-banner-list {
       height: 148px; } }
   .product-banner-list:nth-child(2) {
-    background: url(../../images/banner-1-2.jpg) no-repeat center center;
+    background: url(../images/banner-1-2.jpg) no-repeat center center;
     background-size: cover;
     height: 304px;
     width: 50%; }
@@ -969,7 +969,7 @@ label {
         height: 148px; } }
 
 .productsun-banner-list {
-  background: url(../../images/banner-3.png) no-repeat center center;
+  background: url(../images/banner-3.png) no-repeat center center;
   background-size: cover;
   height: 304px;
   width: 50%; }
@@ -977,7 +977,7 @@ label {
     .productsun-banner-list {
       height: 148px; } }
   .productsun-banner-list:nth-child(2) {
-    background: url(../../images/product-2-color.png) no-repeat center center;
+    background: url(../images/product-2-color.png) no-repeat center center;
     background-size: cover;
     height: 304px;
     width: 50%; }
