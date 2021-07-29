@@ -915,4 +915,40 @@ label {
       .design-item h3 {
         font-size: 32px; } }
 
+.product-nav-item {
+  width: 33%;
+  border-left: #DCDCDC solid 1px; }
+  @media (max-width: 992px) {
+    .product-nav-item {
+      padding: 0 39px; } }
+  @media (max-width: 767px) {
+    .product-nav-item {
+      padding: 0 15px; } }
+  .product-nav-item:nth-child(3) {
+    border-right: #DCDCDC solid 1px; }
+  .product-nav-item a {
+    padding: 27px 0; }
+    @media (max-width: 992px) {
+      .product-nav-item a {
+        padding: 14px 0; } }
+    @media (max-width: 767px) {
+      .product-nav-item a {
+        padding: 5px 0; } }
+  .product-nav-item:hover {
+    border-bottom: #aa0601 solid 8px; }
+    @media (max-width: 767px) {
+      .product-nav-item:hover {
+        border-bottom: #aa0601 solid 4px; } }
+  .product-nav-item img {
+    width: 48px;
+    height: 48px; }
+    @media (max-width: 992px) {
+      .product-nav-item img {
+        width: 32px;
+        height: 32px; } }
+    @media (max-width: 767px) {
+      .product-nav-item img {
+        width: 16px;
+        height: 16px; } }
+
 /*# sourceMappingURL=all.css.map */
