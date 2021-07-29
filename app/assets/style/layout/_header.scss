@@ -6,11 +6,19 @@
 //     }
 // }
 
+
+  
+
+
 .nav{
     padding: 0px 88px;
+    
     .logo{
         width: 80px;
+        
     }
+
+
     @include pad-992{
         padding: 0 40px;
     }
@@ -30,6 +38,7 @@
     color:#fff;
     font-size: 20px;
     padding: 40px 32px 40px 32px;
+
     @include link-hover{
         background-color:$secondary-color;
     }

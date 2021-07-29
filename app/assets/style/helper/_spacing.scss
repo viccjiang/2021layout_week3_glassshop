@@ -232,24 +232,3 @@
     }
 }
 
-.py{
-    &-8{
-        padding-top: $spacing*8; //64px
-        padding-bottom: $spacing*8; //64px
-    }
-
-    @include pad-992{
-        &-md-5{
-            padding-top: $spacing*5; //40px
-            padding-bottom: $spacing*5; //40px
-        }
-      
-    }
-    
-    @include phone-767{
-        &-sm-4{
-            padding-top: $spacing*4; //32px
-            padding-bottom: $spacing*4; //32px
-        }
-    }
-}
