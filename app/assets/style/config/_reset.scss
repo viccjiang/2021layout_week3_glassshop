@@ -81,6 +81,7 @@ h1,h2,h3{
     padding-left: 15px;
     margin: 0 auto;
 
+
     @include pad-992{
         max-width: 720px;
       }
